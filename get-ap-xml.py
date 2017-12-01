@@ -22,4 +22,5 @@ if floor_element.hasChildNodes :
             output = child.tagName + ": " + child.getAttribute('name') + '\t eth: ' + child.getAttribute('ethMacAddress')
             print(output)
         child = child.nextSibling
+        
 response.close()
